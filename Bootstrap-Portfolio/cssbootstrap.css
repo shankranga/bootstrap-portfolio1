@@ -1,0 +1,19 @@
+body{
+	background-image:url("qbkls.jpg");
+	    background-image: url(qbkls.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+   
+    @viewport {
+        width: device-width ;
+        zoom: 1.0 ;
+      }
+
+      @media screen and (max-width: 800px) {
+        .left, .main, .right {
+          width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        }
+      }
